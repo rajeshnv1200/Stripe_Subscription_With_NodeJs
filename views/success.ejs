@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subscription Success</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <h1>Payment Successful!</h1>
+  </header>
+  <main>
+    <p>Your payment was successful. Thank you!</p>
+    <% if ('') { %>
+      <p>You can download your invoice from the following link:</p>
+      <a href="<%= invoiceUrl %>" target="_blank">Download Invoice</a>
+    <% } else { %>
+      <p>No invoice available at this time.</p>
+    <% } %>
+    <a href="/">Return to Homepage</a>
+  </main>
+</body>
+</html>
