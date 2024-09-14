@@ -1,0 +1,22 @@
+# Node.js
+node_modules/
+
+# Logs
+*.log
+logs/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+
+# IDE files
+.vscode/
+*.suo
+*.ntvs_analysis.dat
+
+# Compiled output
+dist/
+build/
